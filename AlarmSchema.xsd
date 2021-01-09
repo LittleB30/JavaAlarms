@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://www.example.org/AlarmSchema" 
+	xmlns:tns="http://www.example.org/AlarmSchema" 
+	elementFormDefault="qualified">
+	
+	<element name="alarm">
+		<complexType>
+			<sequence>
+				<element name="month" type="string"></element>
+				<element name="day" type="string"></element>
+				<element name="hour" type="string"></element>
+				<element name="minute" type="string"></element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>
